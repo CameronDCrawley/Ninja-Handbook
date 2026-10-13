@@ -4,7 +4,7 @@ A simple Node.js and Express API that serves information about various ninjas fr
 
 ## Features
 
-- **RESTful Endpoint:** Fetch specific ninja details by name.
+ **RESTful Endpoint:** Fetch specific ninja details by name.
 
 ---
 

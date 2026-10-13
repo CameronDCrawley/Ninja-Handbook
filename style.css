@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url(cloud.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color:red;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+margin-left: 45%;
+}
+
+
+img:not([src]),img[src=""]{
+  display: none;
+}
+img{
+  border: 2px solid black;
+  
+ 
+}
+.card{
+  background: white;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding:1.25rem;
+  height: 400px;
+  width: 40%;
+  margin-left:40% ;
+  margin-top: 5%;
+  font-size: 2rem;
+  
+}
+
+.card img{
+  height:auto;
+  width: auto;
+  max-height: 300px;
+  object-fit: contain;
+
+}

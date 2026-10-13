@@ -2,14 +2,25 @@
   "name": "rap-names-api",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/100devs/rap-names-api#readme",
+  "bugs": {
+    "url": "https://github.com/100devs/rap-names-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100devs/rap-names-api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {}
 }
